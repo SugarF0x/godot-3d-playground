@@ -11,7 +11,7 @@ script = ExtResource("1_edlfr")
 
 [node name="Pivot" type="Node3D" parent="."]
 
-[node name="player" parent="Pivot" instance=ExtResource("1_uakf1")]
+[node name="Character" parent="Pivot" instance=ExtResource("1_uakf1")]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.08165e-12, 0.8, 2.08165e-12)
